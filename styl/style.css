@@ -1,0 +1,48 @@
+/* Resetowanie domyślnych stylów */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Globalne style */
+body {
+    font-family: Arial, sans-serif; /* Ustawienie domyślnej czcionki */
+    line-height: 1.6; /* Ustawienie odstępu międzywierszowego */
+}
+
+.container {
+    max-width: 800px; /* Maksymalna szerokość kontenera */
+    margin: 0 auto; /* Wyśrodkowanie kontenera na stronie */
+    padding: 20px; /* Wewnętrzny odstęp kontenera */
+}
+
+/* Styl dla przycisków */
+button {
+    padding: 10px 20px; /* Wewnętrzny odstęp przycisku */
+    font-size: 16px; /* Rozmiar czcionki przycisku */
+    cursor: pointer; /* Zmiana kursora na wskaźnik */
+    background-color: #007bff; /* Kolor tła przycisku */
+    color: white; /* Kolor tekstu przycisku */
+    border: none; /* Usunięcie obramowania przycisku */
+    border-radius: 5px; /* Zaokrąglenie narożników przycisku */
+    transition: background-color 0.3s; /* Płynne przejście dla zmiany koloru tła */
+}
+
+/* Styl dla przycisków po najechaniu myszką */
+button:hover {
+    background-color: #0056b3; /* Zmiana koloru tła po najechaniu myszką */
+}
+
+/* Styl dla zdjęć */
+img {
+    max-width: 100%; /* Maksymalna szerokość zdjęcia */
+    height: auto; /* Automatyczna wysokość zdjęcia */
+    display: block; /* Ustawienie zdjęcia jako bloku, aby zachować odstęp między innymi elementami */
+    margin: 0 auto; /* Wyśrodkowanie zdjęcia */
+    border-radius: 5px; /* Zaokrąglenie narożników zdjęcia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień zdjęcia */
+}
